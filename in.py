@@ -58,4 +58,4 @@ def show_chart_with_news():
     return render_template_string(html_template, chart_url=full_url)
 
 if __name__ == '__main__':
-    app.run(debug=False, port=5000)
+    app.run(host='0.0.0.0', port=10000)
